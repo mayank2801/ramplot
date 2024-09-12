@@ -1,0 +1,27 @@
+
+package:
+  name: ramplot
+  version: "1.0.1"
+
+source:
+  path: ..
+
+build:
+  noarch: python
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  imports:
+    -ramplot
+
+about:
+  home: https://github.com/yourusername/your_package
+  license: MIT
+  summary: A description of your package.

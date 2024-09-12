@@ -1,0 +1,3 @@
+[console_scripts]
+ramplot = ramplot.cli:main
+

@@ -1,0 +1,7 @@
+numpy
+pandas
+biopython
+matplotlib
+mdanalysis
+pytest-shutil
+setuptools
